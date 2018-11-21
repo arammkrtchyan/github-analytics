@@ -1,0 +1,45 @@
+github:
+  connector:
+    authentication:
+      basic:
+        user: username
+        password: password
+    user-agent: username
+spring:
+  profiles:
+    active: development
+
+management:
+    endpoints:
+        web:
+            base-path: /management
+            exposure:
+                include: ["configprops", "env", "health", "info", "threaddump", "logfile" ]
+    info:
+        git:
+            mode: full
+    server:
+      port: 8082
+
+logging:
+  path: ${user.home}/logs
+server:
+  compression:
+    enabled: true
+  servlet:
+    context-path: /github-analytics
+
+wicket:
+  stuff:
+    datastore:
+      hazelcast:
+        enabled: false
+  core:
+    resourcesettings:
+      packageresourceguard:
+        pattern:
+        - +*.map
+  verifier:
+    dependencies:
+      throw-exception-on-dependency-version-mismatch: false
+

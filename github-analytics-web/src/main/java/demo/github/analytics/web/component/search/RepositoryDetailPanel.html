@@ -1,0 +1,39 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:panel>
+    <div class="col-md-8">
+        <h4 class="col-md-12">
+            <a wicket:id="nameLink" href="/repository">
+                <wicket:container wicket:id="name" />
+            </a>
+        </h4>
+        <p class="col-xs-12 col-md-9" wicket:id="description">
+        </p>
+        <div class="col-xs-12 col-md-8">
+            <span class="col-md-6" style="padding-left: 0;" wicket:id="license">
+            </span>
+            <span wicket:id="issues"></span> issues
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="text-gray flex-auto min-width-0" style="color: grey;padding-top: 10px;">
+            <span wicket:id="language">
+            </span>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div style="padding-top: 10px;color: #586069;">
+            <span>
+                <svg aria-label="star" viewBox="0 0 14 16" version="1.1"
+                     width="14" height="16" role="img">
+                    <path fill-rule="evenodd"
+                          d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                    </path>
+                </svg>
+                <span wicket:id="stargazers">
+                </span>
+            </span>
+        </div>
+    </div>
+</wicket:panel>
+</html>
