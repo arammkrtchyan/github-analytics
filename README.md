@@ -7,5 +7,4 @@
         * Based on the 100 latest commits, the impact of each user on the project (based on number of commits)
         * Based on the 100 latest commits, the projection of commits on a timeline.
 
-In order to see how to build and run web application please navigate to the link below.
-    [github-analytics-web](https://github.com/arammkrtchyan/github-analytics/github-analytics-web/) 
+In order to see how to build and run web application please navigate to github-analytics-web directory.
