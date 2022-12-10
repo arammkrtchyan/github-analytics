@@ -13,7 +13,7 @@
     <artifactId>github-connector</artifactId>
 
     <properties>
-        <spring.version>5.1.2.RELEASE</spring.version>
+        <spring.version>6.0.0</spring.version>
         <jackson.version>2.10.0</jackson.version>
     </properties>
 
